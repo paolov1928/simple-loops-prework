@@ -20,13 +20,7 @@ def loop_iterator(number_of_times)
 end
 end
 
-loop do 
-  counter += 1
-  puts "Iteration #{counter} of the loop"
-  if counter >= 10 
-    break
-  end
-end
+
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
