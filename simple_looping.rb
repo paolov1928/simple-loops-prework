@@ -11,10 +11,14 @@ def loop_iterator(number_of_times)
   
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  loop {puts "#{phrase}"}
+  loop do
+    puts "#{phrase}"
   counter1 += 1
-  break if counter1 == 10
+  if counter1 == 10
+    break
+  end
 end
+
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
